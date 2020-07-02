@@ -1,0 +1,33 @@
+header {
+	color: var(--white);
+	border-bottom: 0.2em var(--accent-color) solid;
+}
+footer {
+	color: var(--grey);
+}
+body {
+	color: var(--grey);
+	background: var(--main-color);
+	display: flex;
+	flex-flow: column nowrap;
+	max-width: 800px;
+	min-height: 100vh;
+	margin: auto;
+}
+body > * {
+	padding: 13px;
+}
+main {
+	margin-bottom:auto;
+}
+#list {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+:root {
+	--main-color: #c4b1c4;//藤色ぽい
+	--white: #eee;
+	--grey: #222;
+	--accent-color: var(--grey);
+}
